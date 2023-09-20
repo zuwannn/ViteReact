@@ -4,7 +4,7 @@ import "../assets/sidebar_style.css";
 export default class Sidebar extends Component {
   render() {
     return (
-      <div id="nav-bar" className="col-auto">
+      <div id="nav-bar">
         <input id="nav-toggle" type="checkbox" />
         <div id="nav-header">
           <a id="nav-title" href="https://codepen.io" target="_blank">

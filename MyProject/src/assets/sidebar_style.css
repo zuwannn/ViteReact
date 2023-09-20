@@ -9,12 +9,11 @@
     --navbar-light-secondary: #8392a5;
 }
 
-
-/* html,
+html,
 body {
     margin: 0;
     background: var(--background);
-} */
+}
 
 #nav-toggle:checked~#nav-header {
     width: calc(var(--navbar-width-min) - 16px);
@@ -70,10 +69,12 @@ body {
 }
 
 #nav-bar {
-    position: absolute;
+    /* position: absolute; */
+    position: static;
     left: 1vw;
     top: 1vw;
-    height: calc(100% - 2vw);
+    /* height: calc(100% - 2vw); */
+    height: 100vh;
     background: var(--navbar-dark-primary);
     border-radius: 16px;
     display: flex;

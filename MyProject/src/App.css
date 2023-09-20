@@ -1,6 +1,14 @@
+html,
 body {
     /* background-color: #242526; */
-    background-color: #fafbfd;
+    /* background-color: #fafbfd; */
+    background-image: url('./assets/wallpaper-dark.jpg')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
