@@ -1,13 +1,10 @@
 html,
 body {
-    /* background-color: #242526; */
-    /* background-color: #fafbfd; */
     height: 100%;
     margin: 0;
-    background-image: url('./assets/dark-red-stock.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('./assets/wp9299137.jpg');
+    /* background-color: #242526;
+    background-color: #fafbfd; */
 }
 
 
